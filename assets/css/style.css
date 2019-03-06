@@ -26,10 +26,6 @@ head {
   font-display: bold;
 }
 
-body {
-    background-image: assets/images/5010.png;
-}
-
 .footer {
     position: fixed;
     left: 0;
