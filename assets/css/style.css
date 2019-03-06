@@ -20,6 +20,11 @@ head {
     
   }
 
+.middle {
+  justify-content: center;
+  font-display: bold;
+}
+
 body {
     background: #ffffff;
 }
@@ -32,4 +37,6 @@ body {
     background-color: #666666;
     color: white;
     text-align: center;
+    border-style: solid;
+    border-top-color: #4aaaa5;
   }
