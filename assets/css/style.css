@@ -12,10 +12,10 @@ head {
   
   /* Navbar links */
   #navbar a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
-    text-align: center;
+    text-align: left;
     padding: 14px;
     text-decoration: none;
     
@@ -27,7 +27,7 @@ head {
 }
 
 body {
-    background: #ffffff;
+    background-image: assets/images/5010.png;
 }
 
 .footer {
@@ -38,6 +38,5 @@ body {
     background-color: #666666;
     color: white;
     text-align: center;
-    border-style: solid;
-    border-top-color: #4aaaa5;
+    border-top: 6px solid #4aaaa5;
   }
