@@ -5,7 +5,7 @@ head {
 /* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color: #666666;
+    background-color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 6px solid #4aaaa5;
   }
@@ -14,11 +14,10 @@ head {
   #navbar a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: #gray;
     text-align: left;
     padding: 14px;
-    text-decoration: none;
-    
+    text-decoration: none; 
   }
 
   #home {
@@ -42,6 +41,7 @@ img {
 
 body {
   margin: 40px;
+  background-color: gray;
 }
 
 .wrapper {
@@ -58,6 +58,11 @@ body {
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
+}
+
+#message {
+  height: 200px;
+  width: 600px;
 }
 .footer {
     position: fixed;
