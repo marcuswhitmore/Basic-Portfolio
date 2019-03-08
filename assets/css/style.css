@@ -21,6 +21,9 @@ head {
     
   }
 
+  #home {
+    float: right;
+  }
 .middle {
   background-color: gray;
   width: 960px;
@@ -33,21 +36,28 @@ head {
 }
 
 img {
-  float: left;
+  width: 100px;
+  height: 100px;
 }
 
-.grid { 
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 20px;
-  align-items: center;
-  
-  }
-.grid img {
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  max-width: 100%;
+body {
+  margin: 40px;
+}
+
+.wrapper {
+  display: flex;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
 .footer {
     position: fixed;
