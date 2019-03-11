@@ -23,6 +23,11 @@ head {
   #home {
     float: right;
   }
+
+  .container-full {
+    margin: 0 auto;
+    width: 100%;
+  }
 .middle {
   background-color: #ffffff;
   width: 960px;
